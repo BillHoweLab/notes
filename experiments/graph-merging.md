@@ -1,24 +1,20 @@
-# Open Model Text Summarization
+# Graph Merging
 
 ## Questions
 
-Is Mistral competitive with GPT-4 on Text Summarization?
-What role does the lack of RLHF play?
-If not, can fine-tuning achieve competitive results?
+Are we able to use LLMs to resolve synonyms graph conflicts? 
 
 ## Description
 
-Attend to [Heilmeier's catechism](https://www.darpa.mil/work-with-us/heilmeier-catechism).
-
-We want to understand the performance gap on text summarization between opaque LLMs and open models.  These results will inform a recipe for specialized text processing tasks in .gov contexts.
+We have two representations of a graph with the same semnatic meaning (e.g., refer to the same area/object/relation), and they have some structral conflicts (e.g., missing/extra edges) or contecxtual conflicts (e.g., missing/extra attributes). The goal is to merge the two conflicted representations, and output the correct/ideal graph. One real world application example is that we have different annotations of the sidewalks (e.g., google map v.s. OSM), which might conflict with each other.
 
 ## Design
 
-- Use the XYZ dataset <link to data>
-- Use the MistralV123 model <link to code>
-- Modify the data
-- Train like this....
+The proposed LLM methods are:
+
+- Simply input two conflicted graphs into LLM and ask it to output a new one.
+- Input two conflicted graph into LLM, together with the heuristic rules about how to merge the two graphs , and ask it to out a new graph. This scenario mimics the real world approach where human correctors follow the rules to merge the graphs. Rules are great because they set the standards, but following them is time consuming and hard to scale. But if we can use LLM to represent this procedure, maintain similar performances, and also reduce the amount of human labor, that would be amazing.
+- On top of 2, where we use GPT3.5/4 directly without any future learning, we could fine-tune LLMs for our task.
+- For 1 and 2, we dont need any node attributes yet. We could incorporate node attributes and use LLM to generate graph embeddings (similar to my current approach). But with LLM, we can embed textual attributes, which might be very helpful.
 
 ## Results
-
-images were appropriate
