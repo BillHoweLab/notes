@@ -8,6 +8,8 @@ Are we able to use LLMs to resolve synonyms graph conflicts?
 
 We have two representations of a graph with the same semnatic meaning (e.g., refer to the same area/object/relation), and they have some structral conflicts (e.g., missing/extra edges) or contecxtual conflicts (e.g., missing/extra attributes). The goal is to merge the two conflicted representations, and output the correct/ideal graph. One real world application example is that we have different annotations of the sidewalks (e.g., google map v.s. OSM), which might conflict with each other.
 
+Recent works have shown promising results using LLMs on graph representations of data. This project aims to exploit the capabilities of LLMs in addressing the graph conflicts issue.
+
 ## Design
 
 The proposed LLM methods are:
