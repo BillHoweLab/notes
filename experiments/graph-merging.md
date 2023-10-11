@@ -1,16 +1,16 @@
 # Graph Merging
 
-## Questions
+### Questions
 
 Are we able to use LLMs to resolve synonyms graph conflicts? 
 
-## Description
+### Description
 
 We have two representations of a graph with the same semnatic meaning (e.g., refer to the same area/object/relation), and they have some structral conflicts (e.g., missing/extra edges) or contecxtual conflicts (e.g., missing/extra attributes). The goal is to merge the two conflicted representations, and output the correct/ideal graph. One real world application example is that we have different annotations of the sidewalks (e.g., google map v.s. OSM), which might conflict with each other.
 
 Recent works have shown promising results using LLMs on graph representations of data. This project aims to exploit the capabilities of LLMs in addressing the graph conflicts issue.
 
-## Design
+### Design
 
 The proposed LLM methods are:
 
@@ -19,4 +19,4 @@ The proposed LLM methods are:
 - On top of 2, where we use GPT3.5/4 directly without any future learning, we could fine-tune LLMs for our task.
 - For 1 and 2, we dont need any node attributes yet. We could incorporate node attributes and use LLM to generate graph embeddings (similar to my current approach). But with LLM, we can embed textual attributes, which might be very helpful.
 
-## Results
+### Results
