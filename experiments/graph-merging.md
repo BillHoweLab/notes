@@ -23,24 +23,5 @@ The proposed LLM methods are:
 
 We simulate 100 simple graphs, with number of nodes ranging from 5 to 10. Two corrupted versions are created by randomly drop 40% edges. To use LLM, we describe the graphs in [DOT](https://www.graphviz.org/doc/info/lang.html) text. The inputs of LLM will be two graphs in DOT language, and the output will be one graph in DOT language as well.
 
-![image](https://github.com/BillHoweLab/notes/assets/39442036/7086b421-a8e3-465e-916d-9d53a12f580d)
-
-```
-strict graph  {
-0;
-1;
-2;
-3;
-4;
-5;
-6;
-7;
-1 -- 4;
-1 -- 7;
-2 -- 3;
-3 -- 5;
-6 -- 7;
-}
-```
 
 ### Results
