@@ -106,25 +106,22 @@ worthwhile as a point of comparison.
 
 We can report results from open and closed models on the selected tasks in markdown tables.
 
-------------------------------------------------------------------------------------
-| Zero-Shot Results by Task                                                        |
-------------------------------------------------------------------------------------
-| Task                   || Llama-2-Chat | Mistral-7B | Vicuna || GPT-3.5T | GPT-4 |
-------------------------------------------------------------------------------------
-| FreshQA Fact-Checking  ||              |            |        ||          |       |
-| CNN Text Summarization ||              |            |        ||          |       |
-| Hybrid Hiring          ||              |            |        ||          |       |
-------------------------------------------------------------------------------------
+Zero-Shot Results by Task
 
-------------------------------------------------------------------------------------
-| Fine-Tuned Results by Task                                                       |
-------------------------------------------------------------------------------------
-| Task                   || Llama-2-Chat | Mistral-7B | Vicuna || GPT-3.5T | GPT-4 |
-------------------------------------------------------------------------------------
-| FreshQA Fact-Checking  ||              |            |        ||          |       |
-| CNN Text Summarization ||              |            |        ||          |       |
-| Hybrid Hiring          ||              |            |        ||          |       |
-------------------------------------------------------------------------------------
+| Task                   | Llama-2-Chat | Mistral-7B | Vicuna | GPT-3.5T | GPT-4 |
+| ---------------------- | ------------ | ---------- | ------ | -------- | ----- |
+| FreshQA Fact-Checking  |              |            |        |          |       |
+| CNN Text Summarization |              |            |        |          |       |
+| Hybrid Hiring          |              |            |        |          |       |
+
+
+Fine-Tuned Results by Task
+
+| Task                   | Llama-2-Chat | Mistral-7B | Vicuna | GPT-3.5T | GPT-4 |
+| ---------------------- | ------------ | ---------- | ------ | -------- | ----- |
+| FreshQA Fact-Checking  |              |            |        |          |       |
+| CNN Text Summarization |              |            |        |          |       |
+| Hybrid Hiring          |              |            |        |          |       |
 
 ## Overleaf Draft
 
