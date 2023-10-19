@@ -45,6 +45,7 @@ Candidate open models:
 5. Google Flan-T5
 6. LAION-AI OpenAssistant
 7. TII Falcon
+8. Phi-1.5 Microsoft
 
 Closed models should be:
 
@@ -108,20 +109,21 @@ We can report results from open and closed models on the selected tasks in markd
 
 Zero-Shot Results by Task
 
-| Task                   | Llama-2-Chat | Mistral-7B | Vicuna | GPT-3.5T | GPT-4 |
-| ---------------------- | ------------ | ---------- | ------ | -------- | ----- |
-| FreshQA Fact-Checking  |              |            |        |          |       |
-| CNN Text Summarization |              |            |        |          |       |
-| Hybrid Hiring          |              |            |        |          |       |
+| Task                   | Llama-2-Chat | phi-1.5 | Mistral-7B | Vicuna | GPT-3.5T | GPT-4 |
+| ---------------------- | ------------ | ------- | ---------- | ------ | -------- | ----- |
+| FreshQA Fact-Checking  |              |         |            |        |          |       |
+| CNN Text Summarization |              |         |            |        |          |       |
+| Hybrid Hiring          |              |         |            |        |          |       |
 
 
 Fine-Tuned Results by Task
 
-| Task                   | Llama-2-Chat | Mistral-7B | Vicuna | GPT-3.5T | GPT-4 |
-| ---------------------- | ------------ | ---------- | ------ | -------- | ----- |
-| FreshQA Fact-Checking  |              |            |        |          |       |
-| CNN Text Summarization |              |            |        |          |       |
-| Hybrid Hiring          |              |            |        |          |       |
+| Task                   | Llama-2-Chat | phi-1.5 | Mistral-7B | Vicuna | GPT-3.5T | GPT-4 |
+| ---------------------- | ------------ | ------- | ---------- | ------ | -------- | ----- |
+| FreshQA Fact-Checking  |              |         |            |        |          |       |
+| CNN Text Summarization |              |         |            |        |          |       |
+| Hybrid Hiring          |              |         |            |        |          |       |
+
 
 ## Overleaf Draft
 
