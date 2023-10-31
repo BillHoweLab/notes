@@ -31,7 +31,6 @@ Text classification. Not sure exactly how to do this with our modeling setup? Sh
 	date = {2019},
 	note = {event-place: Atlanta, {GA}, {USA}},
 	keywords = {gender bias, algorithmic fairness, automated hiring, compounding injustices, online recruiting, Supervised learning},
-	file = {De-Arteaga et al_2019_Bias in Bios.pdf:/Users/is28/Zotero/storage/DB76AYY6/De-Arteaga et al_2019_Bias in Bios.pdf:application/pdf},
 }
 
 @inproceedings{li_prompt_2023,
@@ -49,5 +48,4 @@ Text classification. Not sure exactly how to do this with our modeling setup? Sh
 	editor = {Rogers, Anna and Boyd-Graber, Jordan and Okazaki, Naoaki},
 	urldate = {2023-10-31},
 	date = {2023-07},
-	file = {Li et al_2023_Prompt Tuning Pushes Farther, Contrastive Learning Pulls Closer.pdf:/Users/is28/Zotero/storage/NVN7QY3R/Li et al_2023_Prompt Tuning Pushes Farther, Contrastive Learning Pulls Closer.pdf:application/pdf},
 }
