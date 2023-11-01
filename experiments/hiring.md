@@ -10,7 +10,7 @@ Classification accuracy. Percent of biographies labeled with the correct occupat
 Difference in TPR between men and women. TPR is the percent of biographies labeled with the correct occupation. (TPR is the same as accuracy, just that RW seems to use “TPR Gap” to talk abt bias and “Accuracy” to talk about performance).
 
 ## Code/Data
-Available [here](https://github.com/isaacOnline/biosbias)
+Available [here](https://github.com/isaacOnline/biosbias).
 
 ## Training Setup
 Text classification. Not sure exactly how to do this with our modeling setup? Should we create a prompt? 
